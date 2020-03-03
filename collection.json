@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "faf6728d-826a-48ac-83d7-735e88037e6e",
+		"name": "aula2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "raiz",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "usuarios",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":\"3\",\"nome\":\"Mikeias\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cadastrar usuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "buscar usuario por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editar usuário",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletar usuário",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
